@@ -3,11 +3,11 @@ def create_an_empty_array
 end
 
 def create_an_array
-  famous_cats = ["one", "two", "three", "four"]
+  ["one", "two", "three", "four"]
 end
 
 def add_element_to_end_of_array(array, element)
-  famous_cats << "five"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
